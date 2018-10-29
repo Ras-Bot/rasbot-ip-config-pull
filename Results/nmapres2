@@ -1,0 +1,318 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-16 15:38 +04
+Nmap scan report for 192.168.1.252
+Host is up (0.012s latency).
+Not shown: 85 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+2000/tcp open  cisco-sccp
+3389/tcp open  ms-wbt-server
+5060/tcp open  sip
+8080/tcp open  http-proxy
+
+Nmap scan report for 151.253.85.1
+Host is up (0.022s latency).
+Not shown: 89 closed ports
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+25/tcp   open     smtp
+80/tcp   open     http
+110/tcp  open     pop3
+135/tcp  open     msrpc
+143/tcp  open     imap
+443/tcp  open     https
+2000/tcp open     cisco-sccp
+5060/tcp open     sip
+5190/tcp filtered aol
+8008/tcp open     http
+
+Nmap scan report for 10.10.210.20
+Host is up (0.012s latency).
+Not shown: 84 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+2000/tcp  open  cisco-sccp
+3389/tcp  open  ms-wbt-server
+5060/tcp  open  sip
+8081/tcp  open  blackice-icecap
+8443/tcp  open  https-alt
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for 172.16.22.107
+Host is up (0.011s latency).
+Not shown: 86 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1433/tcp  open  ms-sql-s
+2000/tcp  open  cisco-sccp
+3389/tcp  open  ms-wbt-server
+5060/tcp  open  sip
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for 10.10.210.120
+Host is up (0.0038s latency).
+Not shown: 95 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+113/tcp  closed ident
+443/tcp  open   https
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+
+Nmap scan report for 172.16.26.60
+Host is up (0.013s latency).
+All 100 scanned ports on 172.16.26.60 are closed
+
+Nmap scan report for 10.10.210.61
+Host is up (0.014s latency).
+Not shown: 86 closed ports
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+2000/tcp  open  cisco-sccp
+3389/tcp  open  ms-wbt-server
+5060/tcp  open  sip
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for 172.26.28.240
+Host is up (0.012s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+2000/tcp open  cisco-sccp
+5060/tcp open  sip
+9100/tcp open  jetdirect
+
+Nmap scan report for 10.10.210.24
+Host is up (0.013s latency).
+Not shown: 89 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2000/tcp  open  cisco-sccp
+3389/tcp  open  ms-wbt-server
+5060/tcp  open  sip
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+
+Nmap scan report for 10.10.210.5
+Host is up (0.013s latency).
+Not shown: 95 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+2000/tcp open  cisco-sccp
+5060/tcp open  sip
+
+Nmap scan report for shbh-mint (172.16.26.44)
+Host is up (0.00077s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 172.16.22.33
+Host is up (0.0031s latency).
+Not shown: 95 filtered ports
+PORT     STATE  SERVICE
+81/tcp   open   hosts2-ns
+113/tcp  closed ident
+443/tcp  open   https
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+
+Nmap scan report for 10.10.210.6
+Host is up (0.012s latency).
+Not shown: 94 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+2000/tcp open  cisco-sccp
+3306/tcp open  mysql
+5060/tcp open  sip
+
+Nmap scan report for 172.16.26.26
+Host is up (0.0042s latency).
+Not shown: 99 closed ports
+PORT     STATE SERVICE
+5060/tcp open  sip
+
+Nmap scan report for 172.16.27.11
+Host is up (0.0046s latency).
+Not shown: 89 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+25/tcp   open   smtp
+80/tcp   open   http
+110/tcp  open   pop3
+113/tcp  closed ident
+135/tcp  open   msrpc
+143/tcp  open   imap
+443/tcp  open   https
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+8008/tcp open   http
+
+Nmap scan report for 172.16.26.11
+Host is up (0.012s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for 10.10.210.111
+Host is up (0.011s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+2000/tcp open  cisco-sccp
+5060/tcp open  sip
+
+Nmap scan report for 172.16.22.40
+Host is up (0.012s latency).
+Not shown: 85 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+2000/tcp  open  cisco-sccp
+3389/tcp  open  ms-wbt-server
+5060/tcp  open  sip
+8000/tcp  open  http-alt
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for 172.16.26.52
+Host is up (0.013s latency).
+All 100 scanned ports on 172.16.26.52 are closed
+
+Nmap scan report for 10.10.210.114
+Host is up (0.011s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+2000/tcp open  cisco-sccp
+5060/tcp open  sip
+
+Nmap scan report for 192.168.1.230
+Host is up (0.012s latency).
+Not shown: 85 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+1433/tcp  open  ms-sql-s
+2000/tcp  open  cisco-sccp
+3389/tcp  open  ms-wbt-server
+5060/tcp  open  sip
+8443/tcp  open  https-alt
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for 10.10.210.115
+Host is up (0.0028s latency).
+Not shown: 95 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+113/tcp  closed ident
+443/tcp  open   https
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+
+Nmap scan report for 10.10.210.116
+Host is up (0.0025s latency).
+Not shown: 95 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+113/tcp  closed ident
+443/tcp  open   https
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+
+Nmap scan report for 172.16.22.163
+Host is up (0.011s latency).
+Not shown: 77 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+110/tcp  open  pop3
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+143/tcp  open  imap
+389/tcp  open  ldap
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+587/tcp  open  submission
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1433/tcp open  ms-sql-s
+2000/tcp open  cisco-sccp
+3306/tcp open  mysql
+3389/tcp open  ms-wbt-server
+5060/tcp open  sip
+8080/tcp open  http-proxy
+
+Nmap done: 41 IP addresses (24 hosts up) scanned in 4.46 seconds
